@@ -44,6 +44,9 @@ Follow the instructions in **`CI Failure Analysis Optimized Workflow – ReportP
 Analyze all failure cases from Report Portal launch id 767719
 ```
 
+#### Demo
+
+1. [AI_Assisted_CI_Failure](https://drive.google.com/file/d/144xV5h30ZbpFZabBWvoA4Acq6zGM-NEt/view?usp=drive_link)
 ---
 
 ### 2.  Prow Job Failure ⚠️ (WIP)
