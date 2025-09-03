@@ -10,7 +10,8 @@ ci-failure-assistant/
 │   ├── check_config.sh    # Environment validation
 │   ├── get_logs.sh        # Report Portal log retrieval
 │   └── filter_logs.sh     # Log filtering utility
-├── CLAUDE.md          # Detailed workflow instructions
+├── CLAUDE.md                 # AI assistant instructions
+├── CI_Failure_ReportPotal.md # ReportPortal workflow
 ├── .env.example       # Environment configuration template
 └── README.md          # This file
 ```
@@ -30,17 +31,13 @@ Analyze failures reported in Report Portal with automated log extraction and int
 - **Pure Shell implementation** - No dependencies required
 
 **🚀 Execution:**  
-Follow the instructions in **`CI Failure Analysis Optimized Workflow – ReportPortal Edition`**
+Follow the workflow in **`CI_Failure_ReportPotal.md`**
 
-**💡 Usage Example:**  
-```bash
-# Step 0: Validate environment
-./scripts/check_config.sh
+**💡 Usage Example:** 
 
-# Step 1: Download logs from Report Portal
-./scripts/get_logs.sh <LAUNCH_ID> <TOKEN> --filter
+Provide launch ID to AI assistant for automated analysis
 
-# Follow CLAUDE.md workflow for analysis
+```
 Analyze all failure cases from Report Portal launch id 767719
 ```
 

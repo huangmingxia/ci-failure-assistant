@@ -5,7 +5,6 @@ config/.analyze_config.json
 # Environment variable files
 .env
 .env.local
-.env.*
 
 # Raw log files (excluded for security/size)
 *.log
